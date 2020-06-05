@@ -1,0 +1,8 @@
+﻿ทดสอบ task ที่ 1  task_CheckWiFiMqtt 
+ เมื่อ WiFi หลุดการเชื่อมต่อ Mqtt ย่อมหลุด  check Connection Wifi 
+LED สถานะ ติดค้าง 
+เมื่อ wifi ต่อแล้ว เชื่อมต่อ Mqtt LED สถานะ กระพิบ ติด 125 ms ดับ 250 ms สลับไป
+ Task นี้ทำงานทุกๆ 500 ms 
+ 
+ข้อสังเกตุ  ในขณะ ที่ task1 แสดงผล main ยังคงทำงาน  ตาม loop เดิม  ยังคง packdata write ram ต่อ 
+
